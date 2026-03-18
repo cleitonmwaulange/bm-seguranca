@@ -17,7 +17,7 @@
     --cor6: #e8c96d;
     --cor7: #f5e0a0;
     --cor5: #c0392b;
-    --cor9: 
+    --cor9: #8a8888; 
 }
 @font-face {
     font-family: "f1";
@@ -380,8 +380,69 @@ main section#servicos div.lista div.card div.top {
     padding: 20px 0;
 }
 
+main section#servicos div.lista div.card div.top div.icon i {
+    font-size: 30px;
+    color: var(--cor8);
+}
+main section#servicos div.lista div.card div.top h2{
+    color: var(--cor9);
+}
+
 main section#servicos div.lista div.card div.texto h2 {
     margin: 10px 0;
+    font-size: 20px;
+}
+main section#servicos div.lista div.card div.texto p {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 15px;
+    color: var(--cor9);
+}
+
+main section#sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 5px;
+}
+
+main section#sobre div.foto {
+    height: 500px;
+    width: 90%;
+    max-width: 450px;
+}
+main section#sobre div.foto img {
+    height: 100%;
+    width: 100%;
+
+}
+
+main section#sobre div.lado h1 {
+    margin: 10px 0;
+}
+
+main section#sobre div.lado p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: var(--cor9);
+}
+
+main section#sobre div.lado div.item {
+    display: flex;
+    margin: 20px 0;
+}
+
+main section#sobre div.lado div.item div.icon i {
+    color: var(--cor8);
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+    main section#sobre {
+        padding: 60px 20px;
+    }
+    main section#sobre div.foto {
+        display: none;
+    }
 }
 
 
