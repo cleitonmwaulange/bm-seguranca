@@ -5,7 +5,7 @@ function enviarWhatsApp(event) {
     var nome = document.getElementById("nome").value;
     var mensagem = document.getElementById("mensagem").value;
     
-    var numero = "939595232";
+    var numero = "+244974129329";
     var texto = `Olá, meu nome é ${nome}. ${mensagem}`;
     
     var url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
