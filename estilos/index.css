@@ -623,3 +623,7 @@ footer section#baixo {
     }
 }
 /* ========== Fim do Footer ==========*/
+
+header, main, footer, a {
+    display: none;
+}
